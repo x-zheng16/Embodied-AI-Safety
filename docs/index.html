@@ -6,7 +6,7 @@
   <title>Safety in Embodied AI: Risks, Attacks, and Defenses</title>
   <meta name="description" content="A comprehensive survey on safety in embodied AI — attacks and defenses across perception, cognition, planning, interaction, and agentic systems. 480+ papers reviewed.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     :root {
       --navy:       #06101f;
@@ -26,7 +26,7 @@
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; font-size: 16px; }
-    body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--cream); color: var(--text); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; background: var(--cream); color: var(--text); line-height: 1.65; -webkit-font-smoothing: antialiased; }
 
     /* ── NAV ── */
     nav {
@@ -216,7 +216,7 @@
       background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6);
       border: 1px solid rgba(255,255,255,0.14); border-radius: 4px;
       padding: 0.25rem 0.65rem; font-size: 0.72rem; cursor: pointer;
-      font-family: 'DM Sans', sans-serif; transition: background 0.2s;
+      font-family: 'Atkinson Hyperlegible', sans-serif; transition: background 0.2s;
     }
     .copy:hover { background: rgba(255,255,255,0.16); color: #fff; }
     .k-at    { color: #79c0ff; }
@@ -298,6 +298,46 @@
     .paper-list li a { color: var(--navy); text-decoration: none; font-weight: 500; }
     .paper-list li a:hover { color: var(--blue); text-decoration: underline; }
 
+
+    /* ── CONTRIBUTE ── */
+    .contribute-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    @media (max-width: 640px) { .contribute-grid { grid-template-columns: 1fr; } }
+
+    .contrib-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.75rem;
+      background: #fff;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .contrib-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.09); transform: translateY(-2px); }
+    .contrib-icon { font-size: 1.75rem; margin-bottom: 0.75rem; }
+    .contrib-title { font-weight: 700; font-size: 1rem; color: var(--navy); margin-bottom: 0.5rem; }
+    .contrib-desc { font-size: 0.88rem; color: #4b5563; line-height: 1.65; margin-bottom: 1.25rem; }
+    .contrib-btn {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      padding: 0.5rem 1.1rem; border-radius: 6px;
+      font-size: 0.85rem; font-weight: 600; text-decoration: none;
+      background: var(--navy); color: #fff;
+      transition: background 0.15s;
+    }
+    .contrib-btn:hover { background: var(--navy-mid); }
+    .contrib-btn.secondary { background: transparent; color: var(--navy); border: 1.5px solid var(--navy); }
+    .contrib-btn.secondary:hover { background: var(--navy); color: #fff; }
+
+    .contrib-note {
+      margin-top: 2rem; padding: 1rem 1.25rem;
+      background: rgba(201,125,18,0.07); border-left: 3px solid var(--amber);
+      border-radius: 0 6px 6px 0;
+      font-size: 0.85rem; color: #4b5563; line-height: 1.65;
+    }
+    .contrib-note strong { color: var(--amber); }
+
   </style>
 </head>
 <body>
@@ -307,6 +347,7 @@
   <a href="#overview">Overview</a>
   <a href="#scope">Scope</a>
   <a href="#papers">Papers</a>
+  <a href="#contribute">Contribute</a>
   <a href="#news">News</a>
   <a href="#citation">Citation</a>
 </nav>
@@ -1085,6 +1126,44 @@
       </div>
     </details>
 
+  </div>
+</section>
+
+<!-- CONTRIBUTE -->
+<section id="contribute">
+  <div class="inner">
+    <h2 class="sh">Contribute</h2>
+    <p style="font-size:0.97rem;color:#4b5563;margin-bottom:1.75rem;max-width:700px;">
+      This survey is a living document. We welcome the community to help keep it current and comprehensive.
+    </p>
+
+    <div class="contribute-grid">
+      <div class="contrib-card">
+        <div class="contrib-icon">&#128196;</div>
+        <div class="contrib-title">Submit a Missing Paper</div>
+        <div class="contrib-desc">
+          Found a relevant paper we haven't covered? Submit it with the venue, year, link, and a brief note on which layer it belongs to. We review submissions regularly.
+        </div>
+        <a href="https://github.com/x-zheng16/Awesome-Embodied-AI-Safety/issues/new?template=paper-submission.md" target="_blank" rel="noopener" class="contrib-btn">
+          + Submit Paper
+        </a>
+      </div>
+
+      <div class="contrib-card">
+        <div class="contrib-icon">&#127760;</div>
+        <div class="contrib-title">Suggest a Taxonomy Change</div>
+        <div class="contrib-desc">
+          Think a topic is missing from our taxonomy, or a sub-category should be reorganized? Open a discussion — we're actively improving the framework.
+        </div>
+        <a href="https://github.com/x-zheng16/Awesome-Embodied-AI-Safety/issues/new?title=[Taxonomy]%20Your%20Suggestion&labels=taxonomy" target="_blank" rel="noopener" class="contrib-btn secondary">
+          Open Discussion
+        </a>
+      </div>
+    </div>
+
+    <div class="contrib-note">
+      <strong>Review process:</strong> Submitted papers are reviewed against our inclusion criteria (must involve safety in an embodied pipeline layer) and added in batches. Accepted contributions are credited in the repository.
+    </div>
   </div>
 </section>
 
