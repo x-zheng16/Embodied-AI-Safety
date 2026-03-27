@@ -1,11 +1,10 @@
 <div align="center">
 
-<!-- Logo placeholder - replace when ready -->
-<!-- <img src="assets/logo.png" width="200"> -->
+<img src="assets/banner.png" width="100%">
 
 # Safety in Embodied AI: Risks, Attacks, and Defenses
 
-[![arXiv](https://img.shields.io/badge/arXiv-2503.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2503.XXXXX)
+[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](https://github.com/x-zheng16/Embodied-AI-Safety/blob/main/paper.pdf)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Papers](https://img.shields.io/badge/Papers-434%2B-blue.svg)](#paper-lists)
@@ -13,7 +12,7 @@
 
 **A comprehensive survey of safety research in embodied AI, covering 480+ papers across perception, cognition, planning, interaction, and agentic systems.**
 
-[[Paper]](https://arxiv.org/abs/2503.XXXXX) | [[Project Page]](https://xxx.ai/)
+[[Paper]](https://github.com/x-zheng16/Embodied-AI-Safety/blob/main/paper.pdf)
 
 </div>
 
@@ -66,7 +65,7 @@
 | Date | Update |
 |------|--------|
 | 2026/03/27 | Repository and paper list released. |
-| 2026/03/XX | Paper available on [arXiv](https://arxiv.org/abs/2503.XXXXX). |
+| 2026/03/XX | Paper available on arXiv (coming soon). |
 
 ## Overview
 
