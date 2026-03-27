@@ -9,7 +9,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Papers](https://img.shields.io/badge/Papers-434%2B-blue.svg)](#paper-lists)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/wuyoscar/Embodied-AI-Safety/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/x-zheng16/Embodied-AI-Safety/pulls)
 
 **A comprehensive survey of safety research in embodied AI, covering 480+ papers across perception, cognition, planning, interaction, and agentic systems.**
 
@@ -1566,7 +1566,7 @@ We review **434+** papers across five capability layers of embodied AI.
 
 ## Missing Papers?
 
-If you find any relevant papers missing from our list, please open an [issue](https://github.com/wuyoscar/Embodied-AI-Safety/issues) or submit a [pull request](https://github.com/wuyoscar/Embodied-AI-Safety/pulls). We welcome community contributions!
+If you find any relevant papers missing from our list, please open an [issue](https://github.com/x-zheng16/Embodied-AI-Safety/issues) or submit a [pull request](https://github.com/x-zheng16/Embodied-AI-Safety/pulls). We welcome community contributions!
 
 ## Citation
 
@@ -1588,4 +1588,4 @@ If you find this survey useful, please cite our paper:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=wuyoscar/Embodied-AI-Safety&type=Date)](https://star-history.com/#wuyoscar/Embodied-AI-Safety&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=x-zheng16/Embodied-AI-Safety&type=Date)](https://star-history.com/#x-zheng16/Embodied-AI-Safety&Date)
