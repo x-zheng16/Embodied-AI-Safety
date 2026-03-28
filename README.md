@@ -7,7 +7,7 @@
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety/blob/main/paper.pdf)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/Papers-490%2B-blue.svg)](#surveyed-papers)
+[![Papers](https://img.shields.io/badge/Papers-459-blue.svg)](#surveyed-papers)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety/pulls)
 
 **A comprehensive survey and the first unified safety framework for embodied AI, covering 400+ key works across perception, cognition, planning, interaction, and agentic systems.**
@@ -100,9 +100,9 @@ We review **400+** papers across five capability layers of embodied AI.
 |-------|--------|-------:|
 | **Perception** | Visual Perception, Auditory Perception, Spatial Perception, Motion Perception, Cross-Modal Perception | 191 |
 | **Cognition** | Instruction Understanding, World Model, Reasoning | 32 |
-| **Planning** | Task Planning, Trajectory Planning, Multi-Agent Planning | 51 |
-| **Action and Interaction** | Robot Control, Human-Agent Interaction, Multi-Agent Collaboration | 92 |
-| **Agentic** | Tool Use, Memory, Self-Evolving, Cascading Risks | 71 |
+| **Planning** | Task Planning, Trajectory Planning, Multi-Agent Planning | 56 |
+| **Action and Interaction** | Robot Control, Human-Agent Interaction, Multi-Agent Collaboration | 97 |
+| **Agentic** | Tool Use, Memory, Self-Evolving, Cascading Risks | 76 |
 
 <details open>
 <summary><b>Perception</b> (191 papers)</summary>
@@ -386,11 +386,14 @@ We review **400+** papers across five capability layers of embodied AI.
 </details>
 
 <details open>
-<summary><b>Planning</b> (51 papers)</summary>
+<summary><b>Planning</b> (56 papers)</summary>
 
 <details>
-<summary>Task Planning (16)</summary>
+<summary>Task Planning (19)</summary>
 
+- [SafeMind: Benchmarking and Mitigating Safety Risks in Embodied LLM Agents](https://scholar.google.com/scholar?q=SafeMind%3A+Benchmarking+and+Mitigating+Safety+Risks+in+Embodied+LLM+Agents). Chen et al.. *arXiv 2509.25885*, 2025.
+- [A Framework for Benchmarking and Aligning Task-Planning Safety in LLM-Based Embodied Agents](https://scholar.google.com/scholar?q=A+Framework+for+Benchmarking+and+Aligning+Task-Planning+Safety+in+LLM-Based+Embodied+Agents). Huang et al.. *arXiv 2504.14650*, 2025.
+- [HASARD: A Benchmark for Vision-Based Safe Reinforcement Learning in Embodied Agents](https://scholar.google.com/scholar?q=HASARD%3A+A+Benchmark+for+Vision-Based+Safe+Reinforcement+Learning+in+Embodied+Agents). Tomilin et al.. *ICLR*, 2025.
 - [Preventing Robotic Jailbreaking via Multimodal Domain Adaptation](https://scholar.google.com/scholar?q=Preventing+Robotic+Jailbreaking+via+Multimodal+Domain+Adaptation). Marchiori et al.. *arXiv 2509.23281*, 2025.
 - [Robo-Troj](https://scholar.google.com/scholar?q=Robo-Troj). Nahian et al.. *arXiv 2504.17070*, 2025.
 - [SafePlan](https://scholar.google.com/scholar?q=SafePlan). Obi et al.. *arXiv 2503.06892*, 2025.
@@ -411,8 +414,9 @@ We review **400+** papers across five capability layers of embodied AI.
 </details>
 
 <details>
-<summary>Trajectory Planning (23)</summary>
+<summary>Trajectory Planning (24)</summary>
 
+- [SafeBench: A Benchmarking Platform for Safety Evaluation of Autonomous Vehicles](https://scholar.google.com/scholar?q=SafeBench%3A+A+Benchmarking+Platform+for+Safety+Evaluation+of+Autonomous+Vehicles). Xu et al.. *NeurIPS*, 2022.
 - [PINA](https://scholar.google.com/scholar?q=PINA). Liu et al.. *ICASSP*, 2026.
 - [Beyond Crash: Hijacking Your Autonomous Vehicle for Fun and Profit](https://scholar.google.com/scholar?q=Beyond+Crash%3A+Hijacking+Your+Autonomous+Vehicle+for+Fun+and+Profit). Sun et al.. *arXiv 2602.07249*, 2026.
 - [Universal Closed-Box Adversarial Attack for Trajectory Representation via Controlling High-Dimensional Iterative Constraints](https://scholar.google.com/scholar?q=Universal+Closed-Box+Adversarial+Attack+for+Trajectory+Representation+via+Controlling+High-Dimensional+Iterative+Constraints). Bai et al.. *IEEE Internet of Things Journal (IoT-J)*, 2025.
@@ -461,11 +465,16 @@ We review **400+** papers across five capability layers of embodied AI.
 </details>
 
 <details open>
-<summary><b>Action and Interaction</b> (92 papers)</summary>
+<summary><b>Action and Interaction</b> (97 papers)</summary>
 
 <details>
-<summary>Robot Control (77)</summary>
+<summary>Robot Control (82)</summary>
 
+- [BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning](https://scholar.google.com/scholar?q=BEAT%3A+Visual+Backdoor+Attacks+on+VLM-based+Embodied+Agents+via+Contrastive+Trigger+Learning). Zhan et al.. *arXiv 2510.27623*, 2025.
+- [Regret-based Defense in Adversarial Reinforcement Learning](https://scholar.google.com/scholar?q=Regret-based+Defense+in+Adversarial+Reinforcement+Learning). Belaire et al.. *AAMAS*, 2024.
+- [Train Hard, Fight Easy: Robust Meta Reinforcement Learning](https://scholar.google.com/scholar?q=Train+Hard+Fight+Easy%3A+Robust+Meta+Reinforcement+Learning). Greenberg et al.. *NeurIPS*, 2023.
+- [Who Is the Strongest Enemy? Towards Optimal and Efficient Evasion Attacks in Deep RL](https://scholar.google.com/scholar?q=Who+Is+the+Strongest+Enemy%3F+Towards+Optimal+and+Efficient+Evasion+Attacks+in+Deep+RL). Sun et al.. *ICLR*, 2022.
+- [Natural Actor-Critic for Robust Reinforcement Learning with Function Approximation](https://scholar.google.com/scholar?q=Natural+Actor-Critic+for+Robust+Reinforcement+Learning+with+Function+Approximation). Zhou et al.. *NeurIPS*, 2023.
 - [LIBERO-X: Robustness Litmus for Vision-Language-Action Models](https://scholar.google.com/scholar?q=LIBERO-X%3A+Robustness+Litmus+for+Vision-Language-Action+Models). Wang et al.. *arXiv 2602.06556*, 2026.
 - [RAT](https://scholar.google.com/scholar?q=RAT). Bai et al.. *AAAI*, 2025.
 - [On Minimizing Adversarial Counterfactual Error](https://scholar.google.com/scholar?q=On+Minimizing+Adversarial+Counterfactual+Error). Belaire, Sinha, Varakantham. *ICLR*, 2025.
@@ -576,7 +585,7 @@ We review **400+** papers across five capability layers of embodied AI.
 </details>
 
 <details open>
-<summary><b>Agentic</b> (71 papers)</summary>
+<summary><b>Agentic</b> (76 papers)</summary>
 
 <details>
 <summary>Tool Use (9)</summary>
@@ -637,8 +646,10 @@ We review **400+** papers across five capability layers of embodied AI.
 </details>
 
 <details>
-<summary>Cascading Risks (34)</summary>
+<summary>Cascading Risks (36)</summary>
 
+- [A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes](https://scholar.google.com/scholar?q=A+Survey+of+Agentic+AI+and+Cybersecurity%3A+Challenges%2C+Opportunities+and+Use-case+Prototypes). Lazer et al.. *arXiv 2601.05293*, 2026.
+- [A Survey on Agentic Security: Applications, Threats and Defenses](https://scholar.google.com/scholar?q=A+Survey+on+Agentic+Security%3A+Applications%2C+Threats+and+Defenses). Shahriar. *arXiv 2510.06445*, 2025.
 - [SkillJect: Automating Stealthy Skill-Based Prompt Injection for Coding Agents with Trace-Driven Closed-Loop Refinement](https://scholar.google.com/scholar?q=SkillJect%3A+Automating+Stealthy+Skill-Based+Prompt+Injection+for+Coding+Agents+with+Trace-Driven+Closed-Loop+Refinement). Jia et al.. *arXiv 2602.14211*, 2026.
 - [SoK: Agentic Skills -- Beyond Tool Use in LLM Agents](https://scholar.google.com/scholar?q=SoK%3A+Agentic+Skills+--+Beyond+Tool+Use+in+LLM+Agents). Jiang et al.. *arXiv 2602.20867*, 2026.
 - [Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale](https://scholar.google.com/scholar?q=Agent+Skills+in+the+Wild%3A+An+Empirical+Study+of+Security+Vulnerabilities+at+Scale). Liu et al.. *arXiv 2601.10338*, 2026.
