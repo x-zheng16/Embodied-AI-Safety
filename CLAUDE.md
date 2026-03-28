@@ -6,7 +6,7 @@ This file describes the repository structure and contribution workflow for AI ag
 ## Repository Overview
 
 **Safety in Embodied AI: Risks, Attacks, and Defenses**
-A curated Awesome list + survey paper covering 480+ papers on safety across the
+A curated Awesome list + survey paper covering 400+ papers on safety across the
 full embodied AI pipeline.
 GitHub: https://github.com/x-zheng16/Awesome-Embodied-AI-Safety
 Project page: https://x-zheng16.github.io/Awesome-Embodied-AI-Safety/
