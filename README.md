@@ -729,4 +729,10 @@ From the same team:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=x-zheng16/Awesome-Embodied-AI-Safety&type=Date&v=20260329)](https://star-history.com/#x-zheng16/Awesome-Embodied-AI-Safety&Date)
+<a href="https://star-history.com/#x-zheng16/Awesome-Embodied-AI-Safety&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=x-zheng16/Awesome-Embodied-AI-Safety&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=x-zheng16/Awesome-Embodied-AI-Safety&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=x-zheng16/Awesome-Embodied-AI-Safety&type=Date" width="800" />
+ </picture>
+</a>
