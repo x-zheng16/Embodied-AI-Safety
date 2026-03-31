@@ -98,16 +98,16 @@ As these systems gain autonomy and enter domains such as autonomous driving, hea
 
 We review **400+** papers across five capability layers of embodied AI.
 
-| Layer | Topics | Papers |
-|-------|--------|-------:|
-| **Perception** | Visual Perception, Auditory Perception, Spatial Perception, Motion Perception, Cross-Modal Perception | 191 |
-| **Cognition** | Instruction Understanding, World Model, Reasoning | 32 |
-| **Planning** | Task Planning, Trajectory Planning, Multi-Agent Planning | 56 |
-| **Action and Interaction** | Robot Control, Human-Agent Interaction, Multi-Agent Collaboration | 97 |
-| **Agentic** | Tool Use, Memory, Self-Evolving, Cascading Risks | 76 |
+|     | Layer                      | Subcategories                                                    | Papers |
+|:---:|----------------------------|------------------------------------------------------------------|-------:|
+| 👁️ | **Perception**             | Visual, Auditory, Spatial, Motion, Cross-Modal                   |    191 |
+| 🧠 | **Cognition**              | Instruction Understanding, World Model, Reasoning                |     32 |
+| 🗺️ | **Planning**               | Task, Trajectory, Multi-Agent                                    |     56 |
+| 🤖 | **Action and Interaction** | Robot Control, Human-Agent, Multi-Agent Collaboration             |     97 |
+| ⚡  | **Agentic**                | Tool Use, Memory, Self-Evolving, Cascading Risks                 |     76 |
 
 <details open>
-<summary><b>Perception</b> (191 papers)</summary>
+<summary>👁️ <b>Perception</b> (191 papers)</summary>
 
 <details>
 <summary>Visual Perception (55)</summary>
@@ -332,8 +332,10 @@ We review **400+** papers across five capability layers of embodied AI.
 
 </details>
 
+---
+
 <details open>
-<summary><b>Cognition</b> (32 papers)</summary>
+<summary>🧠 <b>Cognition</b> (32 papers)</summary>
 
 <details>
 <summary>Instruction Understanding (12)</summary>
@@ -387,8 +389,10 @@ We review **400+** papers across five capability layers of embodied AI.
 
 </details>
 
+---
+
 <details open>
-<summary><b>Planning</b> (56 papers)</summary>
+<summary>🗺️ <b>Planning</b> (56 papers)</summary>
 
 <details>
 <summary>Task Planning (19)</summary>
@@ -466,8 +470,10 @@ We review **400+** papers across five capability layers of embodied AI.
 
 </details>
 
+---
+
 <details open>
-<summary><b>Action and Interaction</b> (97 papers)</summary>
+<summary>🤖 <b>Action and Interaction</b> (97 papers)</summary>
 
 <details>
 <summary>Robot Control (82)</summary>
@@ -586,8 +592,10 @@ We review **400+** papers across five capability layers of embodied AI.
 
 </details>
 
+---
+
 <details open>
-<summary><b>Agentic</b> (76 papers)</summary>
+<summary>⚡ <b>Agentic</b> (76 papers)</summary>
 
 <details>
 <summary>Tool Use (9)</summary>
