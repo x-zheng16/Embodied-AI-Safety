@@ -10,6 +10,8 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Papers](https://img.shields.io/badge/Papers-400%2B-blue.svg)](#surveyed-papers)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/x-zheng16/Awesome-Embodied-AI-Safety?style=social)](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety)
+[![GitHub forks](https://img.shields.io/github/forks/x-zheng16/Awesome-Embodied-AI-Safety?style=social)](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety)
 
 **A comprehensive survey and the first unified safety framework for embodied AI, covering 400+ key works across perception, cognition, planning, interaction, and agentic systems.**
 
